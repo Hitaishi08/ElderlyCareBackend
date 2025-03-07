@@ -23,7 +23,7 @@ const App = () => {
     <Router>
       <ToastContainer />
       <Routes>
-        <Route path="/" element={user ? <Navigate to="/dashboard" /> : <Navigate to="/login" />} />
+        <Route path="/" element={user ?  <Navigate to="/dashboard" /> : <Navigate to="/login" />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/task" element={<TaskScheduler />} />
